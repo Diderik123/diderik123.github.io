@@ -177,7 +177,7 @@ span[class^="expandedFolderBackground-"] {
 	--background-secondary: rgba(var(--black), 0.25);
 	border-radius: 14px;
 	width: 48px;
-	left: 16px;
+	left: 12px;
 }
 
 .wrapper-25eVIn {
