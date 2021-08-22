@@ -110,12 +110,12 @@ div[class*="typeWindows-"]>div:first-child {
 }
 
 div[class*="typeWindows-"]>div[role="button"] {
-	height: 30px;
+	height: 28px;
 	width: 36px;
 }
 
 div[class*="typeWindows-"]::after {
-	content: 'Discord';
+	content: 'Diderik';
 	font-weight: 5000;
 	line-height: 31px;
 	color: var(--text-muted);
@@ -125,7 +125,7 @@ div[class*="typeWindows-"]::after {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 30px;
+	height: 28px;
 	background: rgba(var(--black), 0.85);
 	z-index: -1;
 }
@@ -178,7 +178,7 @@ span[class^="expandedFolderBackground-"] {
 }
 
 .wrapper-25eVIn {
-	zoom: .83334;
+	zoom: 1;
 }
 
 svg[class^="placeholderMask-"] {
