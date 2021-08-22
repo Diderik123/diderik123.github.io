@@ -1,4 +1,8 @@
-
+/* 
+ * Yes, this codebase is near unreadable. Why?
+ * I designed this mainly as a test to see how viable avoidance of straight out class selectors would be.
+ * The codebase was never designed to be pretty, it was designed to require as little maintenance as possible.
+ */
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css');
@@ -110,12 +114,12 @@ div[class*="typeWindows-"]>div:first-child {
 }
 
 div[class*="typeWindows-"]>div[role="button"] {
-	height: 28px;
+	height: 30px;
 	width: 36px;
 }
 
 div[class*="typeWindows-"]::after {
-	content: 'Diderik';
+	content: 'Discord';
 	font-weight: 5000;
 	line-height: 31px;
 	color: var(--text-muted);
@@ -125,7 +129,7 @@ div[class*="typeWindows-"]::after {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 28px;
+	height: 30px;
 	background: rgba(var(--black), 0.85);
 	z-index: -1;
 }
@@ -178,7 +182,7 @@ span[class^="expandedFolderBackground-"] {
 }
 
 .wrapper-25eVIn {
-	zoom: 1;
+	zoom: .83334;
 }
 
 svg[class^="placeholderMask-"] {
