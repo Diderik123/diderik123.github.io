@@ -771,3 +771,7 @@ div[class^="splashBackground"] img {
 	background-position: var(--user-popout-position, center) center;
 	background-image: var(--user-background);
 }
+
+.theme-dark .container-2cd8Mz {
+  background-color: rgba(0, 0, 0, 0.8);
+}
