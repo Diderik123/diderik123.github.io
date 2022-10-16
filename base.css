@@ -118,7 +118,7 @@ div[class*="typeWindows-"]>div[role="button"] {
 }
 
 div[class*="typeWindows-"]::after {
-	content: 'Diderik';
+	content: 'Discord';
 	font-weight: 5000;
 	line-height: 31px;
 	color: var(--text-muted);
@@ -176,13 +176,15 @@ ul[data-list-id='guildsnav'] [class^="pill-"] span {
 span[class^="expandedFolderBackground-"] {
 	--background-secondary: rgba(var(--black), 0.25);
 	border-radius: 14px;
-	width: 40px;
-	left: 16px;
+	width: 48px;
+	left: 12px;
 }
 
-.wrapper-28eC3z,
-[data-list-id='guildsnav'] [data-dnd-name] > div,
-[data-list-id='guildsnav'] svg[width="48"] {
+.wrapper-25eVIn {
+	zoom: 1.0;
+}
+
+svg[class^="placeholderMask-"] {
 	width: 40px;
 	height: 40px;
 }
