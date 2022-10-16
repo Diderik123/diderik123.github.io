@@ -271,10 +271,15 @@ div[class*='clickable-'][aria-expanded]>header {
 
 /* Outer containers */
 
+body {
+	background: var(--background-image) center/cover no-repeat;
+}
+
+#app-mount {
+    background-color: transparent;
 #app-mount {
 	--background-tertiary: transparent;
 	--background-secondary: transparent;
-	background: var(--background-image) center/cover no-repeat;
 }
 
 #app-mount>div[class^="app-"] {
@@ -445,7 +450,7 @@ div[id^="chat-messages-"][class*="cozy-"] div::before {
 	background-color: rgba(var(--accent), 0.3) !important;
 }
 
-#app-mount .container-1D34oG {
+#app-mount .container-2cd8Mz {
 	background: var(--background-primary);
 }
 
